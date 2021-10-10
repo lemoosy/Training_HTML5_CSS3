@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+
+/* Balises */
+
+body
+{
+    background-image: url("wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#paper p
+{
+    margin: 2%;
+    text-align: justify;
+}
+
+#paper h1
+{
+    margin: 2%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+img
+{
+    display: block;
+    text-align: center;
+    margin: 2% auto 3% auto;
+    width: 33%;
+    border: 5px rgba(255, 255, 255, 0.66) solid;
+}
+
+/* Class */
+
+.header
+{
+    display: inline-block;
+    font-size: x-large;
+	font-weight: bold;
+    text-align: center;
+	color: #fff;
+	background: rgb(46, 46, 46);
+    padding: 20px 0px 20px 0px;
+	width: 33.33%;
+}
+
+.header:hover
+{
+    background-color: tomato;
+}
+
+.header_bloc
+{
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+}
+
+/* ID */
+
+#paper
+{
+    margin: 5% 20% 5% 20%;
+    border: 10px rgb(70, 70, 70) solid;
+    box-shadow: 10px 10px 0px black;
+    background-color: rgb(117, 117, 255);
+}
+
+#footer
+{
+    font-size: x-small;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    padding: 30px;
+}
